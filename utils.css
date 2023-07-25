@@ -1,0 +1,138 @@
+/* font-family: 'Poppins', sans-serif; */
+:root {
+    --main-bg-color: #2a71a5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    padding: 23px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul li a:hover {
+    font-weight: bold;
+    color: orange;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.SEARCH {
+    /* border-radius: 10px;
+    text-align: center; */
+    padding: 2px;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 10px; */
+    height: 37px;
+    width: 388px;
+}
+
+.card {
+    background-color: rgb(226, 238, 238);
+    width: 99.5vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-item {
+    display: inline-flex;
+}
+
+.card h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    margin-left: 12px;
+}
+
+.lines {
+    margin-left: 20px;
+}
+
+.container {
+    /* height: 79vh; */
+}
+
+.button {
+    position: relative;
+    bottom: -14px;
+    right: 2px;
+    left: 15px;
+}
+
+#btn {
+    /* background-color: rgb(13, 88, 13);
+    color: white; */
+    /* padding: 3px; */
+    /* border-radius: 10px; */
+    font-family: 'Poppins';
+    text-align: center;
+    color: rgb(60, 60, 124);
+    width: 104px;
+    background-color: white;
+    height: 30px;
+}
+
+#btn a {
+    text-decoration: none;
+    color: #2a71a5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 117px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+.flex-all-center {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
